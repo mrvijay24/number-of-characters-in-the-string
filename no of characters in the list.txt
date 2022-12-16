@@ -1,0 +1,10 @@
+a=input("enter the string")
+n=len(a)
+ch=0
+for i in range(n):
+    if a[i]!='\n':
+        ch=ch+1
+
+print("number of characters in the string are:",ch)
+d=a.swapcase()
+print(d)
